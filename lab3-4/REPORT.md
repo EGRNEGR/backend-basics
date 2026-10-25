@@ -143,7 +143,7 @@ npx @stoplight/prism-cli@5 mock openapi.yaml -p 4010   # mock-сервер
 | Проверка | Результат |
 |---|---|
 | `python -m pytest` (из `lab3-4/` и из корня) | 27 passed; 3 повторных прогона подряд - стабильно |
-| `ruff check` / `ruff format --check` (Ruff 0.17.1) | All checks passed, 11 files already formatted |
+| `ruff check` / `ruff format --check` (Ruff 0.17.1) | All checks passed; все файлы отформатированы |
 | `openapi-spec-validator library-api/openapi.yaml` | OK |
 | `npx @redocly/cli lint openapi.yaml` (recommended) | valid, 0 предупреждений (правило `no-server-example.com` отключено осознанно) |
 | Prism mock + curl | 200 / 201 / 409 / 422 / 401 получены, вывод в `library-api/README.md` |
