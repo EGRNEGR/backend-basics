@@ -1,0 +1,10 @@
+# ДЗ4: асинхронный загрузчик
+httpx==0.28.1
+requests==2.34.2
+
+# Проверки: тесты, валидация OpenAPI, линтер
+jsonschema[format-nongpl]==4.26.0
+openapi-spec-validator==0.9.0
+pytest==9.1.1
+PyYAML==6.0.3
+ruff==0.17.1
