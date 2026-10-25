@@ -1,0 +1,5 @@
+extends:
+  - recommended
+rules:
+  # Домены example.com - намеренные плейсхолдеры учебного контракта.
+  no-server-example.com: off
